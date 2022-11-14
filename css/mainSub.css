@@ -1,0 +1,142 @@
+*{margin:0;padding:0;}/*清除默认样式*/
+
+body{background-color:pink;background-image:url(../images/20170622201040_ftGdz.jpeg);background-repeat:repeat;}
+
+.main
+{
+	width:90%;
+	border:1px solid #CCC;
+	border-radius:60px;
+	background-color:#eee;
+}
+
+body
+{
+	font-size:40px;
+}
+
+#main-div
+{
+	margin:5% auto;
+	height:850px;
+}
+
+#timeSub
+{
+	width:98%;
+	height:10%;
+	margin:5% auto;
+	text-align:center;
+	padding-top:10%;
+}
+
+#popo,#bubu
+{
+	width:2.5em;
+	height:2.5em;
+}
+
+#submitter
+{
+	width:80%;
+	height:5%;
+	margin:4% auto;
+	padding-top:3%;
+	padding-bottom:3%;
+	background-color:#FFF;
+	border-radius:40px;
+	text-align:center;
+}
+
+#submitlogSub
+{
+	width:80%;
+	height:5%;
+	margin:4% auto;
+	margin-top:3%;
+	padding-top:3%;
+	padding-bottom:3%;
+	background-color:#FFF;
+	border-radius:40px;
+	text-align:center;
+}
+
+#backhome
+{
+	width:80%;
+	height:5%;
+	margin:4% auto;
+	margin-top:3%;
+	padding-top:3%;
+	padding-bottom:3%;
+	background-color:#FFF;
+	border-radius:40px;
+	text-align:center;
+}
+
+#submitterSub:hover
+{
+	background-color:#0F0;
+}
+
+#submitlogSub:hover
+{
+	background-color:#0FF;
+}
+
+#backhome:hover
+{
+	background-color:#0FF;
+}
+
+.mybutton:hover
+{
+	cursor:pointer;
+}
+
+.btntext
+{
+	margin-top:-1.5%;
+}
+#backIcon
+{
+	display:inline;
+}
+
+#backText
+{
+	display:inline;
+}
+
+#mainTable
+{
+	table-layout:fixed;
+	width:80%;
+	margin:0 auto;
+}
+
+#popobubuLabel
+{
+	padding-top:30px;
+	padding-bottom:30px;
+}
+#popobubuSub
+{
+	padding-top:30px;
+	padding-bottom:30px;
+}
+
+.label
+{
+	height:52.8px;
+	text-align:justify;
+	overflow: hidden;
+}
+
+.label:after 
+{
+    display: inline-block;
+    width: 100%;
+    content: '';
+
+}

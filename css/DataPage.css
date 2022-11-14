@@ -1,0 +1,44 @@
+#sub-div
+{
+	margin:50px auto;
+}
+
+#backToHome
+{
+	margin:3%;
+	margin-left:10%;
+	padding:1%;
+	width:19%;
+	background-color:#FFF;
+	border-radius:10px;
+	text-align:center;
+}
+
+#backToHome:hover
+{
+	background-color:#0FF;
+}
+
+#dataTable
+{
+	margin:0 auto;
+	padding-top:1%;
+	background:white;
+	margin-bottom:3%;
+}
+
+table 
+{
+  border-collapse: collapse;
+}
+
+table, th, td 
+{
+  border: 1px solid #ccc;
+
+}
+
+td
+{
+	text-align:center;
+}
